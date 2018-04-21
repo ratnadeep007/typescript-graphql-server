@@ -15,9 +15,9 @@
     "graphql-yoga": "^1.8.5"
   },
   "scripts": {
-    "start": "nodemon --exec ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
     "build": "ts-node src/index.ts",
     "server": "node dist/index.js",
-    "prod": "npm run build && npm run server"
+    "start": "npm run build && npm run server"
   }
 }
